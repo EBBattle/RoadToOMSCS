@@ -26,4 +26,4 @@ Create a third, entirely new environment called Project_Gamma.
 
 Using only the manifest file you generated from Project_Alpha, perfectly recreate Project_Alpha's environment state inside Project_Gamma.
 
-Success Criteria: You have successfully completed this task when you can activate Project_Alpha and Project_Beta back-to-back, programmatically print the installed numpy version from the command line in each, and see two different version numbers without any system-wide conflicts. Furthermore, inspecting the Project_Gamma manifest should yield an exact match to Project_Alpha.
+Success Criteria: You have successfully completed this task when you can activate Project_Alpha and Project_Beta back-to-back, programmatically print the installed numpy version from the command line in each, and see two different version numbers without any system-wide conflicts. Furthermore, inspecting the Project_Gamma manifest should yield an exact match to Project_Beta(changed to version actually used).
