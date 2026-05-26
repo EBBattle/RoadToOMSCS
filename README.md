@@ -16,7 +16,7 @@ Establish Isolation: Create a separate virtual environment for each project usin
 
 Induce a Version Conflict: * In the Project_Alpha environment, install the numpy library strictly locked to version 1.21.0.
 
-In the Project_Beta environment, install the numpy library strictly locked to version 1.26.0.
+In the Project_Beta environment, install the numpy library strictly locked to version 2.4.0 (Changed version number due to ignored yanks).
 
 Generate Manifests: Extract the exact state of each environment by generating a dependency manifest (e.g., a requirements.txt file) within their respective project folders.
 
